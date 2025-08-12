@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TradingView Widget</title>
+</head>
+<body>
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright">
+      <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+        <span class="blue-text">Quotes by TradingView</span>
+      </a>
+    </div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+    {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "proName": "BITSTAMP:BTCUSD",
+          "title": "Bitcoin"
+        },
+        {
+          "proName": "NASDAQ:TQQQ",
+          "title": "TQQQ"
+        },
+        {
+          "proName": "AMEX:IVV",
+          "title": "IVV"
+        },
+        {
+          "proName": "CBOE:ARKK",
+          "title": "ARKK"
+        },
+        {
+          "proName": "AMEX:GLD",
+          "title": "Gold ETF"
+        }
+      ],
+      "colorTheme": "light",
+      "locale": "en",
+      "largeChartUrl": "",
+      "isTransparent": true,
+      "showSymbolLogo": true
+    }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</body>
+</html>
+
